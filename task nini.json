@@ -1,0 +1,204 @@
+{
+	"info": {
+		"_postman_id": "ea5b0da9-e86f-4489-bf1c-06534748af8a",
+		"name": "API Testing Exercise",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "39976434",
+		"_collection_link": "https://space-ge.postman.co/workspace/ICL~d1cd6103-9f85-4645-8d9f-6197ce4250c1/collection/39976434-ea5b0da9-e86f-4489-bf1c-06534748af8a?action=share&source=collection_link&creator=39976434"
+	},
+	"item": [
+		{
+			"name": "Genderize",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"",
+							"pm.test(\"Status is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"let data = pm.response.json();",
+							"",
+							"pm.test(\"Gender is valid\", function () {",
+							"    pm.expect([\"male\", \"female\"]).to.include(data.gender);",
+							"});",
+							"",
+							"pm.variables.set(\"gender\", data.gender);",
+							"pm.variables.set(\"person_name\", data.name);"
+						],
+						"type": "text/javascript",
+						"packages": {},
+						"requests": {}
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{GENDERIZE_URL}}?name={{name}}",
+					"host": [
+						"{{GENDERIZE_URL}}"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						},
+						{
+							"key": "name",
+							"value": "{{name}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Agify",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"status code 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"let data = pm.response.json();",
+							"",
+							"pm.test(\"age is a numb\", function () {",
+							"    pm.expect(data.age).to.be.a(\"number\");",
+							"});",
+							"",
+							"pm.variables.set(\"age\", data.age);",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {},
+						"requests": {}
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{AGIFY_URL}}?name={{name}}",
+					"host": [
+						"{{AGIFY_URL}}"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "{{name}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Nationalize",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"status code 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"let data = pm.response.json();",
+							"",
+							"pm.test(\"returned at least one result\", function () {",
+							"    pm.expect(data.country.length).to.be.greaterThan(0);",
+							"});",
+							"",
+							"pm.variables.set(\"country\", data.country[0].country_id);",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {},
+						"requests": {}
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{NATIONALIZE_URL}}?name={{name}}",
+					"host": [
+						"{{NATIONALIZE_URL}}"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "{{name}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Dadjoke",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"if (pm.response.headers.get('Content-Type').includes('application/json')) {",
+							"    let data = pm.response.json();",
+							"",
+							"    pm.test(\"joke is valid\", function () {",
+							"        pm.expect(data.joke).to.be.a(\"string\").and.not.empty;",
+							"    });",
+							"",
+							"    pm.variables.set(\"joke\", data.joke);",
+							"",
+							"    let finalObject = {",
+							"        name: pm.variables.get(\"person_name\"),",
+							"        gender: pm.variables.get(\"gender\"),",
+							"        age: pm.variables.get(\"age\"),",
+							"        country: pm.variables.get(\"country\"),",
+							"        dad_joke: pm.variables.get(\"joke\")",
+							"    };",
+							"",
+							"    console.log(finalObject);",
+							"} else {",
+							"    console.log(\"Response is not JSON, it's HTML or another format.\");",
+							"    console.log(pm.response.text());  // This will log the HTML content for debugging.",
+							"}",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {},
+						"requests": {}
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{DADJOKE_URL}}",
+					"host": [
+						"{{DADJOKE_URL}}"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

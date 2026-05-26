@@ -1,0 +1,14 @@
+/Users/Nini.Chachkhalia/Library/CloudStorage/OneDrive-JSCSpaceInternational,402178442/Documents/ConsoleApp5/ConsoleApp5/bin/Debug/net10.0/ConsoleApp5
+/Users/Nini.Chachkhalia/Library/CloudStorage/OneDrive-JSCSpaceInternational,402178442/Documents/ConsoleApp5/ConsoleApp5/bin/Debug/net10.0/ConsoleApp5.deps.json
+/Users/Nini.Chachkhalia/Library/CloudStorage/OneDrive-JSCSpaceInternational,402178442/Documents/ConsoleApp5/ConsoleApp5/bin/Debug/net10.0/ConsoleApp5.runtimeconfig.json
+/Users/Nini.Chachkhalia/Library/CloudStorage/OneDrive-JSCSpaceInternational,402178442/Documents/ConsoleApp5/ConsoleApp5/bin/Debug/net10.0/ConsoleApp5.dll
+/Users/Nini.Chachkhalia/Library/CloudStorage/OneDrive-JSCSpaceInternational,402178442/Documents/ConsoleApp5/ConsoleApp5/bin/Debug/net10.0/ConsoleApp5.pdb
+/Users/Nini.Chachkhalia/Library/CloudStorage/OneDrive-JSCSpaceInternational,402178442/Documents/ConsoleApp5/ConsoleApp5/obj/Debug/net10.0/ConsoleApp5.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Nini.Chachkhalia/Library/CloudStorage/OneDrive-JSCSpaceInternational,402178442/Documents/ConsoleApp5/ConsoleApp5/obj/Debug/net10.0/ConsoleApp5.AssemblyInfoInputs.cache
+/Users/Nini.Chachkhalia/Library/CloudStorage/OneDrive-JSCSpaceInternational,402178442/Documents/ConsoleApp5/ConsoleApp5/obj/Debug/net10.0/ConsoleApp5.AssemblyInfo.cs
+/Users/Nini.Chachkhalia/Library/CloudStorage/OneDrive-JSCSpaceInternational,402178442/Documents/ConsoleApp5/ConsoleApp5/obj/Debug/net10.0/ConsoleApp5.csproj.CoreCompileInputs.cache
+/Users/Nini.Chachkhalia/Library/CloudStorage/OneDrive-JSCSpaceInternational,402178442/Documents/ConsoleApp5/ConsoleApp5/obj/Debug/net10.0/ConsoleApp5.dll
+/Users/Nini.Chachkhalia/Library/CloudStorage/OneDrive-JSCSpaceInternational,402178442/Documents/ConsoleApp5/ConsoleApp5/obj/Debug/net10.0/refint/ConsoleApp5.dll
+/Users/Nini.Chachkhalia/Library/CloudStorage/OneDrive-JSCSpaceInternational,402178442/Documents/ConsoleApp5/ConsoleApp5/obj/Debug/net10.0/ConsoleApp5.pdb
+/Users/Nini.Chachkhalia/Library/CloudStorage/OneDrive-JSCSpaceInternational,402178442/Documents/ConsoleApp5/ConsoleApp5/obj/Debug/net10.0/ConsoleApp5.genruntimeconfig.cache
+/Users/Nini.Chachkhalia/Library/CloudStorage/OneDrive-JSCSpaceInternational,402178442/Documents/ConsoleApp5/ConsoleApp5/obj/Debug/net10.0/ref/ConsoleApp5.dll

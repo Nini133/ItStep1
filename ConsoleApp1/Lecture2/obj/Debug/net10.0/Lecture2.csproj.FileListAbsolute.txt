@@ -1,0 +1,14 @@
+/Users/Nini.Chachkhalia/Library/CloudStorage/OneDrive-JSCSpaceInternational,402178442/Documents/ConsoleApp1/Lecture2/bin/Debug/net10.0/Lecture2
+/Users/Nini.Chachkhalia/Library/CloudStorage/OneDrive-JSCSpaceInternational,402178442/Documents/ConsoleApp1/Lecture2/bin/Debug/net10.0/Lecture2.deps.json
+/Users/Nini.Chachkhalia/Library/CloudStorage/OneDrive-JSCSpaceInternational,402178442/Documents/ConsoleApp1/Lecture2/bin/Debug/net10.0/Lecture2.runtimeconfig.json
+/Users/Nini.Chachkhalia/Library/CloudStorage/OneDrive-JSCSpaceInternational,402178442/Documents/ConsoleApp1/Lecture2/bin/Debug/net10.0/Lecture2.dll
+/Users/Nini.Chachkhalia/Library/CloudStorage/OneDrive-JSCSpaceInternational,402178442/Documents/ConsoleApp1/Lecture2/bin/Debug/net10.0/Lecture2.pdb
+/Users/Nini.Chachkhalia/Library/CloudStorage/OneDrive-JSCSpaceInternational,402178442/Documents/ConsoleApp1/Lecture2/obj/Debug/net10.0/Lecture2.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Nini.Chachkhalia/Library/CloudStorage/OneDrive-JSCSpaceInternational,402178442/Documents/ConsoleApp1/Lecture2/obj/Debug/net10.0/Lecture2.AssemblyInfoInputs.cache
+/Users/Nini.Chachkhalia/Library/CloudStorage/OneDrive-JSCSpaceInternational,402178442/Documents/ConsoleApp1/Lecture2/obj/Debug/net10.0/Lecture2.AssemblyInfo.cs
+/Users/Nini.Chachkhalia/Library/CloudStorage/OneDrive-JSCSpaceInternational,402178442/Documents/ConsoleApp1/Lecture2/obj/Debug/net10.0/Lecture2.csproj.CoreCompileInputs.cache
+/Users/Nini.Chachkhalia/Library/CloudStorage/OneDrive-JSCSpaceInternational,402178442/Documents/ConsoleApp1/Lecture2/obj/Debug/net10.0/Lecture2.dll
+/Users/Nini.Chachkhalia/Library/CloudStorage/OneDrive-JSCSpaceInternational,402178442/Documents/ConsoleApp1/Lecture2/obj/Debug/net10.0/refint/Lecture2.dll
+/Users/Nini.Chachkhalia/Library/CloudStorage/OneDrive-JSCSpaceInternational,402178442/Documents/ConsoleApp1/Lecture2/obj/Debug/net10.0/Lecture2.pdb
+/Users/Nini.Chachkhalia/Library/CloudStorage/OneDrive-JSCSpaceInternational,402178442/Documents/ConsoleApp1/Lecture2/obj/Debug/net10.0/Lecture2.genruntimeconfig.cache
+/Users/Nini.Chachkhalia/Library/CloudStorage/OneDrive-JSCSpaceInternational,402178442/Documents/ConsoleApp1/Lecture2/obj/Debug/net10.0/ref/Lecture2.dll
