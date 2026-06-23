@@ -201,10 +201,10 @@ class Program
                 case "6": AddStudent();       break;
                 case "7": DeleteStudent();    break;
                 case "8": running = false;    break;
-                default:  Console.WriteLine("არასწორი არჩევანი."); break;
+                default:  Console.WriteLine("wrong choice."); break;
             }
         }
 
-        Console.WriteLine("პროგრამა დაიხურა.");
+        Console.WriteLine("all done.");
     }
 }
